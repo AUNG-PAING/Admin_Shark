@@ -444,7 +444,6 @@ uploadPhotoAndCrateP(photo)async{
 }
 
 showAlertForDelete(BuildContext context,id) async{
-
     Widget continueButton = FlatButton(
       child: Text("Ok"),
       onPressed:  () {
